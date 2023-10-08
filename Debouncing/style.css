@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.searchBox {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#search {
+    padding: 10px;
+    font-size: 20px;
+    width: clamp(300px, 80%, 800px);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+#main > div {
+    background-color: #333;
+    width: 300px;
+    min-height: 450px;
+    margin: 20px;
+    padding: 20px;
+}
+#main > div > img {
+    width: 100%;
+
+}
